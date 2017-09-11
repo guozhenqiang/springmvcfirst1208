@@ -25,7 +25,7 @@ public class ItemsController3 {
 	//商品查询列表
 	//@RequestMapping实现 对queryItems方法和url进行映射，一个方法对应一个url
 	//一般建议将url和方法写成一样
-	@RequestMapping("/queryItems")
+	@RequestMapping("/queryItems.action")
 	public ModelAndView queryItems()throws Exception{
 		
 		//调用service查找 数据库，查询商品列表，这里使用静态数据模拟
